@@ -1,0 +1,85 @@
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="#FFF574"
+            android:text="first  name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/fn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="#FFF574"
+            android:text="last name" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/ln"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="#FFF574"
+            android:text="purpose" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/pn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:background="#FFF574"
+            android:text="whom to meet" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/wn"/>
+
+
+        <Button
+            android:id="@+id/sn"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF8383"
+            android:layout_margin="5dp"
+            android:text="SUBMIT"
+             />
+        <Button
+            android:id="@+id/gn"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF8383"
+            android:layout_margin="5dp"
+            android:text="BACK TO MENU"
+            />
+
+    </LinearLayout>
